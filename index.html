@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--ICS2O-Unit3-03-HTML-Fahrenheit_To_Celsius-->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fahrenheit to Celsius, with JS">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Ryan-Shaw-2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Fahrenheit to Celsius, with JS </title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Fahrenheit to Celsius, with JS</h1>
+    <h3>Formula</h3>
+    <h4> °C = (°F - 32) x 5/9</h4>
+    <p>Please enter the temperature in fahrenheit: </p>
+    <p>
+      <form action="javascript:convertClicked()">
+        <label for="fahrenheit">Temperature: </label>
+        <input type="number" step=".01" id="fahrenheit" placeholder="e.g 75">
+        <label for="unit">°F</label><br><br>
+        <input type="submit" value="Convert">
+      </form>
+    </p>
+    <div id="user-input">
+      <div id="user-temperature"></div>
+    </div>
+  </body>
+</html>
